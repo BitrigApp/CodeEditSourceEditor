@@ -8,15 +8,7 @@
 import CodeEditLanguages
 
 extension TreeSitterLanguage {
-    fileprivate static let relevantLanguages: Set<String> = [
-        CodeLanguage.html.id.rawValue,
-        CodeLanguage.javascript.id.rawValue,
-        CodeLanguage.typescript.id.rawValue,
-        CodeLanguage.jsx.id.rawValue,
-        CodeLanguage.tsx.id.rawValue
-    ]
-
     func shouldProcessTags() -> Bool {
-        return Self.relevantLanguages.contains(self.rawValue)
+        return false
     }
 }
