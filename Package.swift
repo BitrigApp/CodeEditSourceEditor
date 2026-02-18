@@ -21,8 +21,8 @@ let package = Package(
         ),
         // tree-sitter languages
         .package(
-            url: "https://github.com/CodeEditApp/CodeEditLanguages.git",
-            exact: "0.1.20"
+            url: "https://github.com/BitrigApp/CodeEditLanguages.git",
+            branch: "trim-languages"
         ),
         // CodeEditSymbols
         .package(
