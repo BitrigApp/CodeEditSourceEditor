@@ -17,7 +17,7 @@ let package = Package(
         // A fast, efficient, text view for code.
         .package(
             url: "https://github.com/BitrigApp/CodeEditTextView.git",
-            branch: "remove-swiftlint"
+            branch: "bitrig/0.12.1"
         ),
         // tree-sitter languages
         .package(
