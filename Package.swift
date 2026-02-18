@@ -22,7 +22,7 @@ let package = Package(
         // tree-sitter languages
         .package(
             url: "https://github.com/BitrigApp/CodeEditLanguages.git",
-            branch: "trim-languages"
+            branch: "bitrig/0.1.20"
         ),
         // CodeEditSymbols
         .package(
