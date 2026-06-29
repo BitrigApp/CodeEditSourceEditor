@@ -38,10 +38,6 @@ extension SourceEditorConfiguration {
                 controller.textView.isEditable = isEditable
                 controller.textView.selectionManager.highlightSelectedLine = isEditable
                 controller.gutterView.highlightSelectedLines = isEditable
-                if !isEditable {
-                    controller.gutterView.selectedLineTextColor = nil
-                    controller.gutterView.selectedLineColor = .clear
-                }
             }
 
             if oldConfig?.isSelectable != isSelectable {
